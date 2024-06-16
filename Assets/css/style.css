@@ -157,7 +157,7 @@ main {
 .flex-item {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
-  color: var(--tertiary);
+  color:var(--tertiary);
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
@@ -166,7 +166,7 @@ main {
   padding: 0 0 20px 0;
   margin: 0.5em;
   text-decoration: none;
-  background-blend-mode: soft-light;
+  background-blend-mode:exclusion;
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
