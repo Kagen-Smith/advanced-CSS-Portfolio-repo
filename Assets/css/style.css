@@ -166,7 +166,7 @@ main {
   padding: 0 0 20px 0;
   margin: 0.5em;
   text-decoration: none;
-  background-blend-mode:exclusion;
+  background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
@@ -232,5 +232,9 @@ main {
 /* media queries */
 
 /* TODO: add media query for a max-width of 980px */
-
+@media screen and (max-width: 980px) { 
+  main, nav{
+    flex-direction: column;
+  }
+} 
 /* TODO: add media query for a max-width of 768px */
