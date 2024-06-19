@@ -170,7 +170,6 @@ main {
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
-  background-image: url("../images/Screen\ Shot\ 2024-06-16\ at\ 9.04.52\ AM.png");
 }
 
 /* feature first portfolio item */
@@ -230,7 +229,7 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
-  
+image: { url("../images/9F4879CF-ECCA-422A-84BE-35F2DDA7AA96_1_201_a.jpeg")}  
 image: { url("../Images/Screen Shot 2024-06-16 at 9.04.52 AM.png") }
 
 /* media queries */
@@ -238,6 +237,7 @@ image: { url("../Images/Screen Shot 2024-06-16 at 9.04.52 AM.png") }
 /* TODO: add media query for a max-width of 980px */
 @media screen and (max-width: 980px) { 
   html{
+    flex: 1;
    
   }
 } 
