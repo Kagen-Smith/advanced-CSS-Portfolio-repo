@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* brand color palette */
+
 :root {
   --primary: rgba(68, 88, 119, 1);
   --secondary: rgba(146, 204, 206, 1);
@@ -88,7 +88,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../Images/Screen Shot 2024-06-16 at 9.04.52 AM.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url(../images/Screen\ Shot\ 2024-06-16\ at\ 9.04.52\ AM.png),linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -170,9 +170,10 @@ main {
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
+  background-image: url("../images/Screen\ Shot\ 2024-06-16\ at\ 9.04.52\ AM.png");
 }
 
-/* feature first portfolio item */
+
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
@@ -226,22 +227,13 @@ main {
   vertical-align: left;
 }
 
-/* portfolio project images */
-/* TODO: Add portfolio project images here*/
+
 
 image: { url("../images/9F4879CF-ECCA-422A-84BE-35F2DDA7AA96_1_201_a.jpeg")}  
 image: { url("../Images/Screen Shot 2024-06-16 at 9.04.52 AM.png") }
 
-/* media queries */
 
-/* TODO: add media query for a max-width of 980px */
-@media screen and (max-width: 980px) { 
-  html{
-    flex: 1;
-   
-  }
-} 
-/* TODO: add media query for a max-width of 768px */
+
 @media screen and (max-width: 768px) {
   html{
     flex-direction: column;
