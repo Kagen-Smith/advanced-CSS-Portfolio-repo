@@ -19,18 +19,6 @@ This is my Portfolio, this will have examples of my work. this was a challenge b
 
 https://kagen-smith.github.io/advanced-CSS-Portfolio-repo/
 
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Code Example](#code-example)
-* [Usage](#usage)
-* [Learning Points](#learning-points)
-* [Author Info](#author-info)
-* [Credits](#credits)
-* [License](#license)
-
-
 ## Code Example
 for coding this project it was very eye opening, in terms of seeing out CSS interacts with HTML. for example
 ```css
